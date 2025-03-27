@@ -5,8 +5,8 @@ namespace MyNextCarApp.Services
 {
     public class CarService
     {
-        private string _make = "";
-        private string _model = "";
+        private string? _make;
+        private string? _model;
         private int _year;
         private DateTime _lastMaintenanceDate, _refuelOrChargeDate;
 
