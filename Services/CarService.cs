@@ -8,7 +8,7 @@ namespace MyNextCarApp.Services
         private string _make = "";
         private string _model = "";
         private int _year;
-        private DateTime _lastMaintenanceDate, refuelOrChargeDate;
+        private DateTime _lastMaintenanceDate, _refuelOrChargeDate;
 
         public string GetCarMake()
         {
@@ -122,11 +122,11 @@ namespace MyNextCarApp.Services
 
             if (car is FuelCar fuelCar)
             {
-                fuelCar.Refuel(refuelOrChargeDate);
+                fuelCar.Refuel(_refuelOrChargeDate);
             }
             else if (car is ElectricCar electricCar)
             {
-                electricCar.Charge(refuelOrChargeDate);
+                electricCar.Charge(_refuelOrChargeDate);
             }
         }
 
@@ -140,7 +140,7 @@ namespace MyNextCarApp.Services
         private bool ValidateRefuelOrChargeDate(string? input)
         {
             return DateTime.TryParseExact(input, "yyyy-MM-dd HH:mm", null, DateTimeStyles.AllowWhiteSpaces, 
-                out refuelOrChargeDate) && refuelOrChargeDate >= DateTime.Now;
+                out _refuelOrChargeDate) && _refuelOrChargeDate >= DateTime.Now;
         }
     }
 }
