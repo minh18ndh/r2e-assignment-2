@@ -139,8 +139,9 @@ namespace MyNextCarApp.Services
 
         private bool ValidateRefuelOrChargeDate(string? input)
         {
-            return DateTime.TryParseExact(input, "yyyy-MM-dd HH:mm", null, DateTimeStyles.AllowWhiteSpaces, 
-                out _refuelOrChargeDate) && _refuelOrChargeDate >= DateTime.Now;
+            return DateTime.TryParseExact(input, "yyyy-MM-dd HH:mm", null, 
+                DateTimeStyles.AllowWhiteSpaces, out _refuelOrChargeDate) 
+                && _refuelOrChargeDate >= DateTime.Now;
         }
     }
 }

@@ -12,3 +12,4 @@ C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\refint\MyNextCarApp.dll
 C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.pdb
 C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.genruntimeconfig.cache
 C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\ref\MyNextCarApp.dll
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.sourcelink.json
