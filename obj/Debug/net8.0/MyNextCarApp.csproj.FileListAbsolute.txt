@@ -1,0 +1,14 @@
+C:\Users\minhn\Downloads\MyNextCarApp\bin\Debug\net8.0\MyNextCarApp.exe
+C:\Users\minhn\Downloads\MyNextCarApp\bin\Debug\net8.0\MyNextCarApp.deps.json
+C:\Users\minhn\Downloads\MyNextCarApp\bin\Debug\net8.0\MyNextCarApp.runtimeconfig.json
+C:\Users\minhn\Downloads\MyNextCarApp\bin\Debug\net8.0\MyNextCarApp.dll
+C:\Users\minhn\Downloads\MyNextCarApp\bin\Debug\net8.0\MyNextCarApp.pdb
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.AssemblyInfoInputs.cache
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.AssemblyInfo.cs
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.csproj.CoreCompileInputs.cache
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.dll
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\refint\MyNextCarApp.dll
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.pdb
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\MyNextCarApp.genruntimeconfig.cache
+C:\Users\minhn\Downloads\MyNextCarApp\obj\Debug\net8.0\ref\MyNextCarApp.dll
