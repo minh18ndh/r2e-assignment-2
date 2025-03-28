@@ -120,10 +120,13 @@ namespace MyNextCarApp.Services
                 Console.WriteLine("Invalid date format or logic! Ensure it's in the future.");
             }
 
-            switch (car)
+            if (car is FuelCar fuelCar)
             {
-                case FuelCar fuelCar: fuelCar.Refuel(_refuelOrChargeDate); break;
-                case ElectricCar electricCar: electricCar.Charge(_refuelOrChargeDate); break;
+                fuelCar.Refuel(_refuelOrChargeDate);
+            }
+            else if (car is ElectricCar electricCar)
+            {
+                electricCar.Charge(_refuelOrChargeDate);
             }
         }
 
