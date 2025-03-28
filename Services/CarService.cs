@@ -120,13 +120,10 @@ namespace MyNextCarApp.Services
                 Console.WriteLine("Invalid date format or logic! Ensure it's in the future.");
             }
 
-            if (car is FuelCar fuelCar)
+            switch (car)
             {
-                fuelCar.Refuel(_refuelOrChargeDate);
-            }
-            else if (car is ElectricCar electricCar)
-            {
-                electricCar.Charge(_refuelOrChargeDate);
+                case FuelCar fuelCar: fuelCar.Refuel(_refuelOrChargeDate); break;
+                case ElectricCar electricCar: electricCar.Charge(_refuelOrChargeDate); break;
             }
         }
 
@@ -139,7 +136,7 @@ namespace MyNextCarApp.Services
 
         private bool ValidateRefuelOrChargeDate(string? input)
         {
-            return DateTime.TryParseExact(input, "yyyy-MM-dd HH:mm", null, 
+            return DateTime.TryParseExact(input, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture, 
                 DateTimeStyles.AllowWhiteSpaces, out _refuelOrChargeDate) 
                 && _refuelOrChargeDate >= DateTime.Now;
         }
